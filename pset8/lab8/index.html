@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script src="logic.js" type="text/javascript"></script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Who was the MVP of the NBA in the season 2010-2011?</h3>
+                <h4 id="response1"></h4>
+                <button onclick="validate1(event)" id="Derrik Rose">Derrik Rose</button>
+                <button onclick="validate1(event)" id="Michael Jordan">Michael Jordan</button>
+                <button onclick="validate1(event)" id="Lebron James">Lebron James</button>
+                <button onclick="validate1(event)" id="Kevin Durant">Kevin Durant</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>Who is the best basketball player of all history?</h3>
+                <h4 id="response2"></h4>
+                <input id="text_written" type="text">
+                <button onclick="validate2()">Submit</button>
+            </div>
+
+        </div>
+    </body>
+</html>

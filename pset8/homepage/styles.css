@@ -1,0 +1,71 @@
+header{
+    background-color: rgba(0, 0, 0, 0.336);
+    padding: 10px 10px 10px 10px;
+}
+
+main{
+    background-color: rgb(255, 225, 181);
+    padding: 10px 10px 10px 10px;
+}
+
+footer{
+    background-color: rgba(128, 128, 128, 0.562);
+    padding: 10px 10px 10px 10px;
+
+}
+
+#Alberto{
+    width: 600px;
+    height: 500px;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: 60px;
+}
+
+
+
+.titulo{
+    text-align:center;
+    padding: 10px 10px 10px 10px;
+}
+
+.directorio{
+    height: 86px;
+    width: 130px;
+    margin: 7px 0px 7px 0px;
+}
+
+#header{
+    height: 86px;
+    width: 390px;
+}
+
+.info_contact{
+    display: block;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.button_main{
+    background-color: rgb(143, 143, 143);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button_main:hover{
+    background-color: rgb(194, 194, 194);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.p_nosotros{
+    text-align: center;
+}
+
+.colores{
+    display: block;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+
